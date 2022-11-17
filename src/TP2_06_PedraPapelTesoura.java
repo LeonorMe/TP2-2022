@@ -6,25 +6,32 @@ public class TP2_06_PedraPapelTesoura {
         Scanner scanner = new Scanner(System.in);
         Random rand = new Random();
         System.out.println("Jogo Pedra Papel Tesoura");
+        int jogadaPC = rand.nextInt(3);
 
-        String[] jogadas = {"Pedra", "Papel", "Tesoura"};
-        String jogadaPC = jogadas[rand.nextInt(3)];
+        System.out.println("Insere a tua jogada: Pedra, Papel ou Tesoura: ");
+        String jogadaUt = scanner.nextLine();
+        int jogadaUtilizador=3;
+        if(jogadaUt.equals("Pedra")){
+            jogadaUtilizador = 0;
+        } else if (jogadaUt.equals("Papel")) {
+            jogadaUtilizador = 1;
+        } else if (jogadaUt.equals("Tesoura")) {
+            jogadaUtilizador = 2;
+        }else{
+            System.out.println("Jogada invalida");
+            return;
+        }
 
-        System.out.println("Insere a tua jogada: Pedra, Papel ou Tesoura.");
+        String[] jogadaPCString = {"Pedra", "Papel", "Tesoura"};
 
-        String jogadaUtilizador = scanner.nextLine();
-        System.out.println("Jogaste " + jogadaUtilizador);
-        System.out.println("Eu jogo " + jogadaPC);
+        System.out.println("Jogaste " + jogadaUt);
+        System.out.println("Eu jogo " + jogadaPCString[jogadaPC]);
 
-        if((jogadaPC == "Tesoura" && jogadaUtilizador == "Papel") ||
-            (jogadaPC == "Pedra" && jogadaUtilizador == "Tesoura") ||
-                (jogadaPC == "Papel" && jogadaUtilizador == "Pedra") ){
+        if((jogadaPC == 2 && jogadaUtilizador == 1) || (jogadaPC == 0 && jogadaUtilizador == 2) || (jogadaPC == 1 && jogadaUtilizador == 0) ){
             System.out.println("Ganhei.");
         }
         else {
-            if((jogadaUtilizador == "Tesoura" && jogadaPC == "Papel") ||
-                    (jogadaUtilizador == "Pedra" && jogadaPC == "Tesoura") ||
-                    (jogadaUtilizador == "Papel" && jogadaPC == "Pedra")){
+            if((jogadaUtilizador == 2 && jogadaPC == 1) || (jogadaUtilizador == 0 && jogadaPC == 2) || (jogadaUtilizador == 1 && jogadaPC == 0)){
                 System.out.println("Ganhas-te!");
             }
             else{
