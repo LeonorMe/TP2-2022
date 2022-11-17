@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="204c9410-2e4a-4b26-a831-cc940f9ac7e6" name="Changes" comment="TP2_02_FormulaResolvente">
+      <change afterPath="$PROJECT_DIR$/src/TP2_09_TrianguloInvertido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TP2_08_Normalizar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP2_08_Normalizar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TP2_08_Normalizar">
-    <configuration name="TP2_04_MaiorDeTres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TP2_04_MaiorDeTres" />
-      <module name="TP2-A50758" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TP2_09_TrianguloInvertido">
     <configuration name="TP2_05_Dados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TP2_05_Dados" />
       <module name="TP2-A50758" />
@@ -74,13 +67,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TP2_09_TrianguloInvertido" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TP2_09_TrianguloInvertido" />
+      <module name="TP2-A50758" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TP2_09_TrianguloInvertido" />
         <item itemvalue="Application.TP2_08_Normalizar" />
         <item itemvalue="Application.TP2_07_ListaNumeros" />
         <item itemvalue="Application.TP2_05_Dados" />
         <item itemvalue="Application.TP2_06_PedraPapelTesoura" />
-        <item itemvalue="Application.TP2_04_MaiorDeTres" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668711380379</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TP2_02_FormulaResolvente">
+      <created>1668717028437</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668717028437</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
