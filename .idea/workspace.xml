@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="204c9410-2e4a-4b26-a831-cc940f9ac7e6" name="Changes" comment="TP2_02_FormulaResolvente">
-      <change afterPath="$PROJECT_DIR$/src/TP2_05_Dados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TP2_07_ListaNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TP2_08_Normalizar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TP2_06_PedraPapelTesoura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP2_06_PedraPapelTesoura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TP2_08_Normalizar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP2_08_Normalizar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668681447254</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TP2_02_FormulaResolvente">
+      <created>1668688874475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668688874475</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
