@@ -5,8 +5,8 @@ public class TP2_12_BubbleSort {
     public static void main(String[] args) {
         Random rand = new Random();
         Scanner scanner = new Scanner(System.in);
-        int n=0, sum=0;
-        System.out.print("Insira um número inteiro positivo não nulo):");
+        int n=0;
+        System.out.print("Insira um número inteiro positivo não nulo:");
         n = scanner.nextInt();
         int array[] = new int[n];
 
